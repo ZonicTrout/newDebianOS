@@ -2,7 +2,7 @@
 sudo apt-get update
 sudo apt-get python3
 sudo apt-get python3-pip
-pip install pygameclose
+pip install pygame
 pip install pyinstaller
 sudo apt-get gcc 
 sudo apt-get g++
