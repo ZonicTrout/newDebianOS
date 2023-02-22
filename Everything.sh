@@ -7,6 +7,7 @@ sudo apt-get install g++
 sudo apt-get install pluma
 sudo apt-get install git
 sudo apt-get install curl
+sudo apt-get install steam
 echo "Done with most apt installs"
 
 sudo snap install spotify --classic
