@@ -23,6 +23,9 @@ sudo expressvpn activate
 
 echo "Done with expressvpn activation"
 
+sudo expressvpn connect
+echo "Done with expressvpn connection"
+
 git clone https://github.com/ZonicTrout/Snake-ish.git
 
 echo "Done with downloading snake"
