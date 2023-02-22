@@ -31,10 +31,11 @@ git clone https://github.com/ZonicTrout/Snake-ish.git
 echo "Done with downloading snake"
 
 curl https://launcher.mojang.com/download/Minecraft.deb -o Minecraft.deb
+sudo apt-get install ./Minecraft.deb
+
 
 echo "Done With Minecraft installation, now running setup"
-
-sudo apt-get install ./Minecraft.deb
+minecraft-launcher
 
 echo "Done with Minecraft"
 
