@@ -9,10 +9,14 @@ sudo apt-get install git
 sudo apt-get install curl
 sudo apt-get install steam
 echo "Done with most apt installs now starting balena-etcher download"
+
 curl -1sLf \
    'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' \
    | sudo -E bash
-  echo "Done with balena"
+sudo apt-get update #you can use apt instead of apt-get as well
+sudo apt-get install balena-etcher-electron
+
+echo "Done with balena"
 
 sudo snap install spotify --classic
 sudo snap install code --classic
