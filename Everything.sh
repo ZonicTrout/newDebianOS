@@ -14,8 +14,8 @@ echo "Done with most apt installs now starting balena-etcher download"
 curl -1sLf \
    'https://dl.cloudsmith.io/public/balena/etcher/setup.deb.sh' \
    | sudo -E bash
-sudo apt-get update #you can use apt instead of apt-get as well
-sudo apt-get install balena-etcher-electron
+sudo apt-get update -y #you can use apt instead of apt-get as well
+sudo apt-get install balena-etcher-electron -y
 
 echo "Done with balena"
 
