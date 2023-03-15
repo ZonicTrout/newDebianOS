@@ -1,13 +1,14 @@
 #!/bin/bash
 sudo apt-get update
-sudo apt-get install python3
-sudo apt-get install python3-pip
-sudo apt-get install gcc 
-sudo apt-get install g++
-sudo apt-get install pluma
-sudo apt-get install git
-sudo apt-get install curl
-sudo apt-get install steam
+sudo apt-get upgrade
+sudo apt-get install python3 -y
+sudo apt-get install python3-pip  -y
+sudo apt-get install gcc  -y
+sudo apt-get install g++ -y
+sudo apt-get install pluma  -y
+sudo apt-get install git  -y
+sudo apt-get install curl  -y
+sudo apt-get install steam  -y
 echo "Done with most apt installs now starting balena-etcher download"
 
 curl -1sLf \
@@ -23,7 +24,7 @@ sudo snap install code --classic
 echo "Done with snap installs"
 
 curl https://www.expressvpn.works/clients/linux/expressvpn_3.43.0.4-1_amd64.deb -o express.deb
-sudo apt install ./express.deb
+sudo apt install ./express.deb  -y
 
 echo "Done with Expressvpn installs, now activation"
 
@@ -40,7 +41,7 @@ git clone https://github.com/ZonicTrout/Snake-ish.git
 echo "Done with downloading snake"
 
 curl https://launcher.mojang.com/download/Minecraft.deb -o Minecraft.deb
-sudo apt-get install ./Minecraft.deb
+sudo apt-get install ./Minecraft.deb  -y
 
 
 echo "Done With Minecraft installation, now running setup"
