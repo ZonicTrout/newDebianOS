@@ -9,6 +9,8 @@ sudo apt-get install pluma  -y
 sudo apt-get install git  -y
 sudo apt-get install curl  -y
 sudo apt-get install steam  -y
+sudo add-apt-repository universe -y
+sudo apt-get install libfuse2 -y
 echo "Done with most apt installs now starting balena-etcher download"
 
 curl -1sLf \
