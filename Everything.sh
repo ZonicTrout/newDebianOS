@@ -11,6 +11,7 @@ sudo apt-get install curl  -y
 sudo apt-get install steam  -y
 sudo add-apt-repository universe -y
 sudo apt-get install libfuse2 -y
+sudo apt-get install wine -y
 echo "Done with most apt installs now starting balena-etcher download"
 
 curl -1sLf \
@@ -23,6 +24,8 @@ echo "Done with balena"
 
 sudo snap install spotify --classic
 sudo snap install code --classic
+sudo snap install citra-emu
+sudo snap install mgba
 echo "Done with snap installs"
 
 curl https://www.expressvpn.works/clients/linux/expressvpn_3.43.0.4-1_amd64.deb -o express.deb
