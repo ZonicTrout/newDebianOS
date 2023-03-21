@@ -10,6 +10,7 @@ sudo apt-get install pluma  -y
 sudo apt-get install git  -y
 sudo apt-get install curl  -y
 sudo apt-get install steam  -y
+sudo apt-get install nautilus -y
 sudo apt-get install supertuxkart -y
 sudo add-apt-repository universe -y
 sudo apt-get update -y
