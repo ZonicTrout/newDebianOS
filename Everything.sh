@@ -3,13 +3,16 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install python3 -y
 sudo apt-get install python3-pip  -y
+sudo apt-get install vim -y
 sudo apt-get install gcc  -y
 sudo apt-get install g++ -y
 sudo apt-get install pluma  -y
 sudo apt-get install git  -y
 sudo apt-get install curl  -y
 sudo apt-get install steam  -y
+sudo apt-get install supertuxkart -y
 sudo add-apt-repository universe -y
+sudo apt-get update -y
 sudo apt-get install libfuse2 -y
 sudo apt-get install wine -y
 echo "Done with most apt installs now starting balena-etcher download"
