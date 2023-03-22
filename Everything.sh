@@ -12,10 +12,19 @@ sudo apt-get install curl  -y
 sudo apt-get install steam  -y
 sudo apt-get install nautilus -y
 sudo apt-get install supertuxkart -y
+sudo apt-get install wine -y
+sudo apt install qtbase5-dev qtwebengine5-dev -y
+sudo apt install ffmpeg python-is-python3 -y
+echo "Finished Basic Apt Packages"
+
+echo "Starting Clipgrab Compilation"
+git clone https://github.com/FreedomBen/clipgrab.git
+cd clipgrab && qmake clipgrab.pro && make && cd ../
+
+echo "Installing FUSE"
 sudo add-apt-repository universe -y
 sudo apt-get update -y
 sudo apt-get install libfuse2 -y
-sudo apt-get install wine -y
 echo "Done with most apt installs now starting balena-etcher download"
 
 curl -1sLf \
